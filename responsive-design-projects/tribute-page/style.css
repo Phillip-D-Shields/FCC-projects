@@ -1,0 +1,57 @@
+body {
+    background-color: #800000;
+}
+#main {
+    background-color: rgb(212, 212, 212);
+    max-width: 90vw;
+    margin: 1rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    border-radius: 1rem;
+}
+
+#title {
+    background-color: #fff;
+    color: #800000;
+}
+
+#img-div {
+    display: flex;
+    flex-direction: column;
+   padding-bottom: 1rem;
+   margin: auto;
+}
+
+#image {
+    max-width: 100%;
+}
+
+#img-caption {
+    display: block;
+}
+
+.timeline-title {
+    background-color: #fff;
+    color: #800000;
+}
+.timeline-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.timeline-list li {
+    padding: .75rem .75rem;
+}
+
+.wiki-link {
+    font-size: 1.25rem;
+    margin-top: 1.5rem;
+    background-color: #fff;
+}
+#tribute-link {
+    color: #800000;
+    text-decoration: none;
+}

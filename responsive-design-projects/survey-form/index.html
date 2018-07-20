@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Laowai Survey Form</title>
+    <!-- icon -->
+    <!-- font -->
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1 id="title">Laowai of China Survey</h1>
+    <main>
+
+        <p id="description">Welcome to China, please fill out this form and feel the harmony of 5000 years brought to you by the communist party.
+            You're answers will be anonymous and we are not watching you fill this out via a hidden camera in your apartment.</p>
+        <form action="secretpolicehq" id="survey-form" method="GET">
+            <section class="input-row">
+                <div class="labels">
+                    <label for="name" id="name-label">* Name: </label>
+                </div>
+                <div class="input-box">
+                    <input type="text" name="name" id="name" class="input-field0" placeholder="full name on your passport" required>
+                </div>
+            </section>
+
+            <section class="input-row">
+                <div class="labels">
+                    <label for="number" id="number-label">* Passport Number: </label>
+                </div>
+                <div class="input-box">
+                    <input type="number" name="number" id="number" min="6" max="12" class="input-field0" placeholder="full passport number" required>
+                </div>
+            </section>
+
+            <section class="input-row">
+                <div class="labels">
+                    <label for="email" id="email-label">* Email: </label>
+                </div>
+                <div class="input-box">
+                    <input type="email" name="email" id="email" class="input-field0" placeholder="email you use with facebook" required>
+                </div>
+            </section>
+
+            <section class="input-row">
+                <div class="labels">
+                    <label for="emailpw" id="emailpw-label">* Email Password: </label>
+                </div>
+                <div class="input-box">
+                    <input type="text" name="emailpw" id="emailpw" class="input-field0" placeholder="we pry already have it, but just to be sure"
+                        required>
+                </div>
+            </section>
+
+            <section class="input-row">
+                <div class="labels">
+                    <label for="hobbies">What do you do in your free time?</label>
+                </div>
+                <div class="input-box">
+                    <ul class="userFT">
+                        <li class="radio">
+                            <label>
+                                <input name="free-time" value="1" type="radio" class="freetimes">Drink
+                            </label>
+                        </li>
+                        <li class="radio">
+                            <label>
+                                <input name="free-time" value="2" type="radio" class="freetimes">Chase Women
+                            </label>
+                        </li>
+                        <li class="radio">
+                            <label>
+                                <input name="free-time" value="3" type="radio" class="freetimes">Complain
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="input-row">
+                <div class="labels">
+                    <label for="ethnicity">What Laowai are you?</label>
+                </div>
+                <div class="input-box">
+                    <select id="dropdown" name="ethnicity" class="dropdown">
+                        <option disabled value>Shenme Laowai?</option>
+                        <option value="white">White Laowai (white)</option>
+                        <option value="black">Africa Laowai (black)</option>
+                        <option value="brown">Jungle / Desert Laowai (brown)</option>
+                        <option value="minority">China Laowai (ethnic minority in China)</option>
+                        <option value="other_asian">Future China Laowai (from other Asian country)</option>
+                    </select>
+                </div>
+            </section>
+
+            <section class="input-row">
+                <div class="labels">
+                    <label for="reason">Why are you here?</label>
+                </div>
+                <div class="input-box">
+                    <select id="dropdown1" name="reason" class="dropdown">
+                        <option disabled value>Shenme Do?</option>
+                        <option value="teacher">English Edutainer (Waijiao)</option>
+                        <option value="teacher">DJ (Waijiao)</option>
+                        <option value="teacher">Part-time Model (Waijiao)</option>
+                        <option value="teacher">Musician (Waijiao)</option>
+                        <option value="tourist">Tourist (Future Waijiao)</option>
+                    </select>
+                </div>
+            </section>
+
+            <section class="input-row">
+                <div class="labels">
+                    <label for="favorites">What is your favorite part of China? (check all that apply)</label>
+                </div>
+                <div class="input-box">
+                    <ul id="favorites">
+                        <li class="checkbox">
+                            <label>
+                                <input name="favs" value="1" type="checkbox" class="userFavs">Ample Supply of Hot Water</label>
+                        </li>
+                        <li class="checkbox">
+                            <label>
+                                <input name="favs" value="2" type="checkbox" class="userFavs">Harmonious</li>
+                        </label>
+                        <li class="checkbox">
+                            <label>
+                                <input name="favs" value="3" type="checkbox" class="userFavs">The 5,000 Years of History</label>
+                        </li>
+                        <li class="checkbox">
+                            <label>
+                                <input name="favs" value="4" type="checkbox" class="userFavs">The Never Ending "Ganbei"</label>
+                        </li>
+                        <li class="checkbox">
+                            <label>
+                                <input name="favs" value="5" type="checkbox" class="userFavs">The Most Important Islands in the History of Anything! Fuck Japan!!</label>
+                        </li>
+                        <li class="checkbox">
+                            <label>
+                                <input name="favs" value="6" type="checkbox" class="userFavs">The Most Important Islands in the History of Anything! Fuck Vietnam!!</label>
+                        </li>
+                        <li class="checkbox">
+                            <label>
+                                <input name="favs" value="7" type="checkbox" class="userFavs">Guanxi / Mianzi</label>
+                        </li>
+                        <li class="checkbox">
+                            <label>
+                                <input name="favs" value="8" type="checkbox" class="userFavs">The Most Important Islands in the History of Anything! Fuck All South East Asian Countries!</label>
+                        </li>
+                        <li class="checkbox">
+                            <label>
+                                <input name="favs" value="9" type="checkbox" class="userFavs">The Historical Maps That Clearly Show That China Actually Owns Every Place on Earth</label>
+                        </li>
+                        <li class="checkbox">
+                            <label>
+                                <input name="favs" value="10" type="checkbox" class="userFavs">Double Fuck Japan!</label>
+                        </li>
+                        <li class="checkbox">
+                            <label>
+                                <input name="favs" value="10" type="checkbox" class="userFavs">Cheap Beer/Women/Food</label>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="input-row">
+                <div class="labels">
+                    <label for="comments">Please leave your comments or ideas on how we can improve our China.</label>
+                </div>
+                <div class="input-box">
+                    <textarea id="comments" class="input-field" name="comment" rows="10" cols="50" placeholder="Any comments left here will result in your immediate deportation, we are perfect, this was a test and you failed for even thinking about it, you dumb laowai"></textarea>
+                </div>
+            </section>
+
+            <button id="submit" type="submit">Submit</button>
+        </form>
+
+    </main>
+
+
+
+
+
+</body>
+
+</html>
